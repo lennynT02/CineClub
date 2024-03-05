@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="form1">
+  <grid id="27dc6" binding="menuPrincipal" layout-manager="GridLayoutManager" row-count="7" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="19" y="20" width="713" height="733"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.5"/>
+      <alignmentY value="0.5"/>
+      <autoscrolls value="true"/>
+      <background color="-16777216"/>
+      <doubleBuffered value="false"/>
+      <enabled value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c7461" class="javax.swing.JTextArea" binding="descripcionTextArea">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="7" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <editable value="true"/>
+          <foreground color="-1712155"/>
+          <text value="DESCIPCION&#10;La película  sigue a Thomas, un joven  que despierta en un ascensor sin &#10;recordar quién es ni cómo llegó allí. Pronto descubre que está atrapado &#10;en un lugar  llamado &quot;El Claro&quot;, rodeado por un laberinto aparentemente &#10;imposible de escapar.&#10;Thomas se une a un grupo de chicos que han estado viviendo en El Claro,&#10;tratando de buscar  la  salida del  laberinto. Los habitantes del Claro &#10;han creado una sociedad organizada para sobrevivir cada dia, pero están &#10;constantemente  amenazados por los Grievers, criaturas biomecánicas que &#10;acechan en el laberinto durante la noche.&#10;Thomas se  convierte en un corredor , alguien encargado  de explorar el &#10;laberinto  y buscar una posible salida. A medida que  se adentra  en el &#10;laberinto, descubre secretos sobre su pasado y el  propósito del Claro. &#10;Eventualmente,  él y sus  compañeros corredores descubren  un plan para&#10;escapar del laberinto,  pero enfrentan  desafíos mortales y  traiciones &#10;inesperadas en el proceso.&#10;"/>
+        </properties>
+      </component>
+      <component id="da41f" class="javax.swing.JButton" binding="informacionButton">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14681089"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="INFORMACION DE LA RESERVACION "/>
+        </properties>
+      </component>
+      <component id="aa0d4" class="javax.swing.JLabel" binding="reservacion">
+        <constraints>
+          <grid row="1" column="1" row-span="4" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="acd0f" class="javax.swing.JTextField" binding="informacionTextField">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="false"/>
+          <foreground color="-591620"/>
+          <text value="                                              Informacion de la pelicula "/>
+        </properties>
+      </component>
+      <component id="54ff5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13717426"/>
+          <enabled value="true"/>
+          <icon value="imageninicio/cine palomitas.jpg"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="11781" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13717426"/>
+          <enabled value="false"/>
+          <foreground color="-16777216"/>
+          <horizontalTextPosition value="0"/>
+          <text value="CINE CLUB"/>
+        </properties>
+      </component>
+      <component id="e881d" class="javax.swing.JButton" binding="menuButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9971332"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Menu"/>
+        </properties>
+      </component>
+      <component id="5185" class="javax.swing.JButton" binding="buscadorButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9971332"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="true"/>
+          <text value="Buscador "/>
+        </properties>
+      </component>
+      <component id="72465" class="javax.swing.JTextPane" binding="detalles">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="205"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <editable value="true"/>
+          <enabled value="true"/>
+          <foreground color="-1712155"/>
+          <text value="MAZE RUNNER&#10;Correr o Morir&#10;El laberinto&#10;&#10;GENERO: Acción &#10;Duración: 2.45 &#10;FECHA DE ESTRENO:  13 de enero del 2024&#10;DIRECTOR: Wes Ball &#10;"/>
+        </properties>
+      </component>
+      <component id="78be2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="33" height="205"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="imageninicio/correr o morir 1.jpg"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="99231" class="javax.swing.JButton" binding="miPerfilButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9971332"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <text value="Mi Perfil"/>
+        </properties>
+      </component>
+      <component id="ad0be" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d21f0" class="javax.swing.JLabel" binding="calificacion">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="CALIFICACION DE LA PELICULA "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
